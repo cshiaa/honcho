@@ -45,6 +45,8 @@ EXAMPLES:
 - EXPLICIT: "I took my dog for a walk in NYC" → "{peer_id} has a dog", "{peer_id} lives in NYC"
 - EXPLICIT: "{peer_id} attended college" + general knowledge → "{peer_id} completed high school or equivalent"
 
+You must respond with valid JSON matching the provided schema.
+
 Messages to analyze:
 <messages>
 {messages}
